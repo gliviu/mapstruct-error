@@ -1,0 +1,14 @@
+plugins {
+	id 'java'
+	id 'net.ltgt.apt' version '0.10'
+  id 'eclipse'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile 'org.mapstruct:mapstruct-jdk8:1.2.0.Final'
+	apt 'org.mapstruct:mapstruct-processor:1.2.0.Final'
+}
